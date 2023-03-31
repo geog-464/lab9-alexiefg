@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
-        <title>lab9</title>
+        <title>lab9 Alexie Gutierrez-Ferrari</title>
         
 		<!--put your external stylesheet links here-->
 		<link rel="stylesheet" href="css/styles.css">
@@ -17,11 +17,22 @@
 
     <body>
         <!--put your initial page content here-->
+		Lab 9, Alexie Gutierrez-Ferrari
 		<div id="div1">
+			<p>Question 2: Most of the var styles are emtpy, have no colour, are "nulls", and have no data. It basically contains "nothing" from what I can see. The conditional statement is making the map have some visual features and it is returning empty white, dots with opacity so we can see through them. 
+			<p>Question 3: Changing the colour instead of "#fff"
+			<p>Question 4: Feature is the geojson metadata for that specfic feature which inclused the properties and geometry. Layer is the representation of those features on the map.  
+			<P>Question 5: layer.options.fill bascially defines the colour of different fill-related options, as for layer.getLatLng(), this returns the center point lat and long coordinates of the layer. 
+			<p>Question 6: When i reloaded the page, the big black circles got much bigger and lost their fill colours. The map was engulfed by this basically. 
 		</div>
 		<div id="mapdiv">
 			
 		</div>
+		<select class="li-nav" name="mapdropdown" id="mapdropdown" onChange="loadMap(this.value);">
+	<option value="map0" selected="selected" disabled>Load a map</option>
+	<option value='mapa'>Map A</option>
+	<option value='mapb'>Map B</option>
+	</select>
 		
         <!--you can also use this space for internal scripts; you would place these within <script> tags-->
 
